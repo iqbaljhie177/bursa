@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import VerificationForm from "./components/Verifications/Verify";
-import Profile from "./pages/Profile";
-import Transactions from "./pages/Transactions";
-import Deposit from "./pages/Deposit";
-import Notifications from "./pages/Notifications";
-import ForgotPassword from "./pages/ForgotPassword";
-import Trading from "./pages/Trading";
+import Dashboard from "./pages/Dashboard.tsx";
+import Login from "./pages/Login.tsx";
+import Register from "./pages/Register.tsx";
+import VerificationForm from "./components/Verifications/Verify.tsx";
+import Profile from "./pages/Profile.tsx";
+import Transactions from "./pages/Transactions.tsx";
+import Deposit from "./pages/Deposit.tsx";
+import Notifications from "./pages/Notifications.tsx";
+import ForgotPassword from "./pages/ForgotPassword.tsx";
+import Trading from "./pages/Trading.tsx";
 
 const App = () => {
   return (
