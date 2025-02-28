@@ -14,15 +14,15 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Redirect />} />
-      <Route path="/dashboard" element={<Home />} />
-      <Route path="/dashboard/change-password" element={<ChangePassword />} />
-      <Route path="/dashboard/deposit-request" element={<DepositRequest />} />
-      <Route path="/dashboard/withdraw-request" element={<WithdrawRequest />} />
-      <Route path="/dashboard/trading" element={<Trading />} />
-      <Route path="/dashboard/kyc-request" element={<KYCRequest />} />
-      <Route path="/dashboard/profile" element={<ForgotPassword />} />
-      <Route path="/dashboard/payment-method" element={<PaymentMethod />} />
-      <Route path="/login" element={<Login />} />
+      <Route path="/pages" element={<Home />} />
+      <Route path="/pages/change-password" element={<ChangePassword />} />
+      <Route path="/pages/deposit-request" element={<DepositRequest />} />
+      <Route path="/pages/withdraw-request" element={<WithdrawRequest />} />
+      <Route path="/pages/trading" element={<Trading />} />
+      <Route path="/pages/kyc-request" element={<KYCRequest />} />
+      <Route path="/pages/profile" element={<ForgotPassword />} />
+      <Route path="/pages/payment-method" element={<PaymentMethod />} />
+      <Route path="/pages/login" element={<Login />} />
     </Routes>
   );
 };
