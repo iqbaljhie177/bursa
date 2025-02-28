@@ -14,15 +14,6 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Redirect />} />
-      <Route path="/pages/Home.tsx" element={<Home />} />
-      <Route path="/pages/Change-password.tsx" element={<ChangePassword />} />
-      <Route path="/pages/Deposit-request.tsx" element={<DepositRequest />} />
-      <Route path="/pages/Withdraw-request.tsx" element={<WithdrawRequest />} />
-      <Route path="/pages/Krading.tsx" element={<Trading />} />
-      <Route path="/pages/Kyc-request.tsx" element={<KYCRequest />} />
-      <Route path="/pages/Profile.tsx" element={<ForgotPassword />} />
-      <Route path="/pages/Payment-method.tsx" element={<PaymentMethod />} />
-      <Route path="/pages/Login.tsx" element={<Login />} />
     </Routes>
   );
 };
